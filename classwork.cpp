@@ -14,7 +14,7 @@ int main()
   double numerator;
   double denominator;
   while (user_inpit ! = 99)
-
+ std::cin >> user_input
   {
     std::cout << "Welcome to C++ Calculator! Choose an option below!\n"
       <<"0. Roll a dice\n"
@@ -24,7 +24,55 @@ int main()
       << "5. Square root \n"
       << "99. Quit\n"
 
-    std::cin >> user_input
+      std::cin >> user_input;
+      {if(user-input == 1)
+      int random_number = (std::rand() % 6) +1 // random numbers between 1 and 6
+      std::cout << "You rolled a " << random_number << std::end1;
+      }
+        if(user_input == 1)
+      {
+        std::cout << 'Enter two numbers\n'
+        std::cin >> num1 >> num2;
+        std::cout << "their sum is" (num1 + num2) << std::end;
+      }
+      else
+      { 
+        if(user_input == 2)
+        {
+        std::cout << "Enter two numbers\n";
+        std::cin >> num1 >> num2
+        std::cout << "Their product is " << (num1 * num2) << std::end1;
+        }
+        else
+        {
+          if (user_input == 3)
+          {
+            if(user_input == 3)
+            std::cout << "Enter two numbers\n";
+            std::cin >> num1 >> num2
+            std::cout << "Their product is " << (num1 * num2) << std::end;
+          }
+          else
+          {
+            if (user_input == 4)
+            {
+              std::cout << "Enter two numbers\n";
+              std::cin >> numerator >> denominator;
+
+            }
+
+
+
+
+          }
+
+
+
+        }
+
+
+      }
+    
 
 
 
