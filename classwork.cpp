@@ -58,25 +58,15 @@ int main()
             {
               std::cout << "Enter two numbers\n";
               std::cin >> numerator >> denominator;
+              if (denominator == 0)
+              {
+                std::cout << "Error: Division by zero is not allowed.\n"
+              }
 
             }
-
-
-
-
           }
-
-
-
         }
-
-
       }
-    
-
-
-
-
   }
   return 0;
 }
